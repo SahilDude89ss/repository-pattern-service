@@ -2,8 +2,8 @@
 
 namespace Pyntax\Services;
 
-use App\Contracts\Repositories\Repository;
-use App\Contracts\Services\Service as ServiceContract;
+use Pyntax\Contracts\Repositories\Repository;
+use Pyntax\Contracts\Services\Service as ServiceContract;
 
 /**
  * Class Service

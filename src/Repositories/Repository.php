@@ -2,7 +2,7 @@
 
 namespace Pyntax\Repositories;
 
-use App\Contracts\Repositories\Repository as RepositoryContract;
+use Pyntax\Contracts\Repositories\Repository as RepositoryContract;
 
 /**
  * Class Repository

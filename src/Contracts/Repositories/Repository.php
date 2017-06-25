@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Contracts\Repositories;
+namespace Pyntax\Contracts\Repositories;
 
 use Pyntax\Contracts\CRUDInterface;
 
 /**
  * Interface Repository
- * @package App\Contracts\Repositories
+ * @package Pyntax\Contracts\Repositories
  */
 interface Repository extends CRUDInterface
 {
