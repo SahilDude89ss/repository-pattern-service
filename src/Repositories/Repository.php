@@ -62,7 +62,7 @@ class Repository implements RepositoryContract
     function save(array $data)
     {
         $staticModel = $this->model;
-        return $staticModel::save($data);
+        return $staticModel::create($data);
     }
 
     /**
