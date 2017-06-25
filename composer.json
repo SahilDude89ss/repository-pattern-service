@@ -1,0 +1,17 @@
+{
+    "name": "sahildude89ss/repository-pattern-service",
+    "authors": [
+        {
+            "name": "Sahil Sharma",
+            "email": "SahilDude89ss@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "5.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Pyntax": "src/"
+        }
+    }
+}
