@@ -22,7 +22,7 @@ class Service implements ServiceContract
      */
     public function __construct(Repository $repository)
     {
-        parent::__construct($repository);
+        $this->repository = $repository;
     }
 
     /**
