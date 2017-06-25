@@ -2,11 +2,13 @@
 
 namespace App\Contracts\Repositories;
 
+use Pyntax\Contracts\CRUDInterface;
+
 /**
  * Interface Repository
  * @package App\Contracts\Repositories
  */
-interface Repository
+interface Repository extends CRUDInterface
 {
     /**
      * Repository constructor.

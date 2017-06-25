@@ -3,12 +3,13 @@
 namespace App\Contracts\Services;
 
 use App\Contracts\Repositories\Repository;
+use Pyntax\Contracts\CRUDInterface;
 
 /**
  * Interface Service
  * @package App\Contracts\Services
  */
-interface Service
+interface Service extends CRUDInterface
 {
     function __construct(Repository $repository);
 
